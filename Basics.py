@@ -15,4 +15,4 @@ def computepay():
     return 'Please complete work hours'
 
 
-computepay()
+print(computepay())
