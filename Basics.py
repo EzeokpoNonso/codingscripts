@@ -19,16 +19,17 @@ print(computepay())
 
 #---------------------------------------------------------------------------
 
-def computepay(hours,rate):
-  print ("In compute pay hours=", hours, " rate=", rate)
-  pay = rate * hours
-  if hours > 40:
-      pay = rate * (40) + rate * 1.5 * (h - 40)
+def computepay(h, r):
+  print ("Calculating for {} hours at {} per hour.".format(h, r)) # ignore this line, just for fancy.
+  pay = r * h
+  if h > 40:
+      pay = r * (40) + r * 1.5 * (h - 40)
   return(pay)
 
 hrs = input("Enter Hours:")
 rate=input("Enter Rate:")
 h = float(hrs)
 r = float(rate)
-p=computepay(h,r)
+p=computepay(h, r)
 print('Pay: ', p)
+
