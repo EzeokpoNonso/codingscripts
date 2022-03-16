@@ -2,7 +2,7 @@
 
 #todo: A basic class
 class Book:
-    def __int__(self, title):
+    def __init__(self, title):
         self.title = title
 
 #todo: instance of the class
