@@ -7,7 +7,7 @@ class Book:
 
 #todo: instance of the class
 b1 = Book("No more two")
-b2 = Book("fulfilling marital relationship")
+b2 = Book("Fulfilling MR")
 
 #todo: print class and property
 print(b1)
