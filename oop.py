@@ -67,6 +67,8 @@ print(isinstance(n1, Newspaper))    #true
 print(isinstance(n2, Book))         #false
 print(isinstance(n2, object)) # check if it's an instance of object - TRUE for all python objects
 
-#TODO:
+#TODO: class methods and members
+class eBbook:
+    
 #TODO:
 #TODO:
