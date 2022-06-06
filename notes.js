@@ -1,7 +1,14 @@
-//Manipulate Arrays with pop()
+// Manipulate Arrays with pop() --------------------------------------------------
 
 // Setup
-const myArray = [["John", 23], ["cat", 2]];
+const myArray = [["Bob", 22], ["Cati", 6]];
 
-// Only change code below this line
-const removedFromMyArray = myArray.pop();
+// remove the last element and store in a new constant, same method applies t varriables
+const removedfromMyArray = myArray.pop();
+
+/*
+removedfromMyArray should contain the removed array element
+myArray should now contain the remaining array elements
+..........................................................................*/
+
+//...............................................................
