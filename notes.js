@@ -1,4 +1,4 @@
-// Manipulate Arrays with pop() --------------------------------------------------
+// Manipulate Arrays with pop() for last element on the list --------------------------------------------------
 
 // Setup
 const myArray = [["Bob", 22], ["Cati", 6]];
@@ -9,6 +9,9 @@ const removedfromMyArray = myArray.pop();
 /*
 removedfromMyArray should contain the removed array element
 myArray should now contain the remaining array elements
-..........................................................................*/
+
+same thing happens when you want to remove the first element with .shift()
+..........................................................................
+*/
 
 //...............................................................
